@@ -213,7 +213,7 @@ Window:AddTabSection({
 local FarmTab = Window:AddTab({
 	Title = "Farm",
 	Section = "Main",
-	Icon = LoadCustomAsset("https://raw.githubusercontent.com/Nobodylmao-sigma-is-me/rblx_scripts/refs/heads/main/rbxassetids/11963373994"
+	Icon = LoadCustomAsset("https://raw.githubusercontent.com/Nobodylmao-sigma-is-me/rblx_scripts/refs/heads/main/rbxassetids/11963373994.png")
 })
 
 Window:AddToggle({
@@ -242,7 +242,7 @@ Window:AddButton({
 local Settings = Window:AddTab({
 	Title = "Settings",
 	Section = "Settings",
-	Icon = LoadCustomAsset("https://raw.githubusercontent.com/Nobodylmao-sigma-is-me/rblx_scripts/refs/heads/main/rbxassetids/11293977610"
+	Icon = LoadCustomAsset("https://raw.githubusercontent.com/Nobodylmao-sigma-is-me/rblx_scripts/refs/heads/main/rbxassetids/11293977610.png")
 })
 
 Window:AddKeybind({

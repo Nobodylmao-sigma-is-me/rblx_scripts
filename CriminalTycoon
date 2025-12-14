@@ -19,7 +19,8 @@ local userid = tostring(player.UserId)
 local atms = workspace:FindFirstChild("Map"):FindFirstChild("ATMS");
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/lxte/lates-lib/main/Main.lua"))()
 local notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/Library.lua"))()
---// functions
+--// functions/modules
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
 local function get_cash()
     getgenv().farm_atms = false
     local originalCFrame = hrp.CFrame
@@ -227,7 +228,7 @@ Window:AddToggle({
 local CashTab = Window:AddTab({
     Title = "Cash",
     Section = "Main",
-    Icon = "rbxassetid://9008236330"
+    Icon = LoadCustomAsset("https://raw.githubusercontent.com/Nobodylmao-sigma-is-me/rblx_scripts/refs/heads/main/rbxassetids/9008236330.png")
 })
 Window:AddButton({
     Title = "Get cash",

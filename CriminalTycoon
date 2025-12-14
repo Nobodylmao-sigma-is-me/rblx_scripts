@@ -47,7 +47,7 @@ local function get_cash()
 end
 
 
-
+--// original script for farm function "https://scriptblox.com/script/Criminal-Tycoon-Auto-Farm-41920"
 local function farm(enabled)
 	if enabled then
 		getgenv().farm_atms = enabled
